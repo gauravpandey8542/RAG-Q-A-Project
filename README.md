@@ -55,11 +55,6 @@ Open http://127.0.0.1:8000/docs for the interactive API. The first upload is slo
 | `GET /search?q=...` | Return the most similar chunks (retrieval only, no LLM). |
 | `POST /ask` | Body: `{"question": "...", "doc_id": "..."}`. Returns an answer with sources. |
 
-## Example
-
-<screenshot of a cited answer>
-
-<screenshot of a question the document can't answer, showing the refusal>
 
 ## Project structure
 
